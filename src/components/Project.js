@@ -28,13 +28,13 @@ export const Project = ( )=>
         category: "Apps"
     },
     {
-        title: "book reding app",
+        title: "Glow-up Website",
         description: "Design and Development",
         imgUrl: projImg4,
         category: "Websites"
     },
     {
-        title: "book reding app",
+        title: "tea design",
         description: "Design and Development",
         imgUrl: projImg5,
         category: "Graphic Designs"
@@ -76,7 +76,7 @@ return (
             </Nav.Item>
           </Nav>
        <Tab.Content>
-         <Tab.Pane eventKey = "first">Apps
+         <Tab.Pane eventKey = "first">
             <Row>
             {projects
         .filter((project) => project.category === "Apps")
@@ -85,7 +85,7 @@ return (
         ))}
             </Row>
          </Tab.Pane>
-         <Tab.Pane  eventKey = "second">graphic designs
+         <Tab.Pane  eventKey = "second">
          <Row>
          {projects
         .filter((project) => project.category === "Graphic Designs")
@@ -94,7 +94,7 @@ return (
         ))}
             </Row>
          </Tab.Pane>
-         <Tab.Pane  eventKey="third" >websites
+         <Tab.Pane  eventKey="third" >
          <Row>
          {projects
         .filter((project) => project.category === "Websites")
