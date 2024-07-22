@@ -24,10 +24,11 @@ export const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
+    const apiUrl = process.env.REACT_APP_URL;
     e.preventDefault();
     setButtonText("Sending...");
     try {
-      let response = await fetch("http://localhost:5500/contact", {
+      let response = await fetch(apiUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
