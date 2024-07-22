@@ -2,7 +2,7 @@ import { Container,Col,Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../assets/img/meter1 (1).png";
-import meter from "../assets/img/meter.png";
+
 import meter2 from "../assets/img/meter2.png";
 import meter3 from "../assets/img/meter3.png";
 
