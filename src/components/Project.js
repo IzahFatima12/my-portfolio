@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard.js";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
+import projImg5 from "../assets/img/gym-homepage.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -34,8 +34,8 @@ export const Project = ( )=>
         category: "Websites"
     },
     {
-        title: "tea design",
-        description: "Design and Development",
+        title: "gym-fitness homepage",
+        description: "Design ",
         imgUrl: projImg5,
         category: "Graphic Designs"
     },
