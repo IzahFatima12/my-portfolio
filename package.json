@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://izah-portfolio.vercel.app",
+  "homepage": "https://izah-portfolio.vercel.app",
   "name": "my-potfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "firebase": "^10.12.4",
+    "firebase-admin": "^13.5.0",
     "nodemailer": "^6.9.14",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
@@ -27,14 +28,14 @@
   },
   "scripts": {
     "start:frontend": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start:backend": "node server.js",
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },          
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -57,6 +58,5 @@
     "@babel/plugin-syntax-import-attributes": "^7.24.7",
     "concurrently": "^8.2.2",
     "gh-pages": "^6.1.1"
-    
   }
 }
