@@ -37,10 +37,10 @@ function NewsLetter() {
   };
 
   return (
-    <div className="newsletter-bx">
+    <div className="Newsletter-bx">
       <Container>
         <form onSubmit={handleSubmit}>
-          <div className="newsletter-content">
+          <div className="Newsletter-content">
             <h3>
               Subscribe to our
               <br />

@@ -1,9 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard.js";
 
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg4 from "../assets/img/project-img4.png";
+import projImg2 from "../assets/img/brew.png";
+import projImg4 from "../assets/img/art.png";
 import projImg5 from "../assets/img/g.png";
 import projImg6 from "../assets/img/HomePage.png";
 import projImg7 from "../assets/img/frizio.png";
@@ -16,13 +15,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Project = () => {
   const projects = [
-    {
-      title: "food ordering app",
-      description: "Design and Development",
-      imgUrl: projImg1,
-      category: "Apps",
-      url: "https://your-https://www.figma.com/design/BggaIbjcuu8viM2ZEn2RJa/LattoFatto-app?node-id=0-1&p=f&t=LVUx4vKuN4xchnXa-0emo-link.com"   // 🔗 add your link here
-    },
+
     {
       title: "brew-hub coffe app",
       description: "Design and Development",
@@ -31,18 +24,18 @@ export const Project = () => {
       url: "https://github.com/IzahFatima12/brew-hub"
     },
     {
-      title: "Glow-up Website",
+      title: "Art Gallery management",
       description: "Design and Development",
       imgUrl: projImg4,
       category: "Websites",
-      url: "https://your-demo-link.com"
+      url: "https://github.com/IzahFatima12/ArtGalleryMngmt.git"
     },
     {
       title: "gym-fitness homepage",
       description: "Design ",
       imgUrl: projImg5,
       category: "Graphic Designs",
-      url: "https://your-demo-link.com"
+      url: "https://www.figma.com/design/jQQ3R3OAXGKYcitCgPXh1p/gym-homepage?node-id=0-1&p=f&t=xBSWqVU8JMcjpi8Q-0"
     },
     {
       title: "RedConnect-Blood Dnation Website",
@@ -105,10 +98,10 @@ export const Project = () => {
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Apps</Nav.Link>
+                  <Nav.Link eventKey="first">Graphic Designs</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Graphic Designs</Nav.Link>
+                  <Nav.Link eventKey="second">Apps</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Websites</Nav.Link>
@@ -118,7 +111,7 @@ export const Project = () => {
                 <Tab.Pane eventKey="first">
                   <Row>
                     {projects
-                      .filter((project) => project.category === "Apps")
+                      .filter((project) => project.category === "Graphic Designs")
                       .map((project, index) => (
                         <ProjectCard key={index} {...project} />
                       ))}
@@ -127,7 +120,7 @@ export const Project = () => {
                 <Tab.Pane eventKey="second">
                   <Row>
                     {projects
-                      .filter((project) => project.category === "Graphic Designs")
+                      .filter((project) => project.category === "Apps")
                       .map((project, index) => (
                         <ProjectCard key={index} {...project} />
                       ))}
