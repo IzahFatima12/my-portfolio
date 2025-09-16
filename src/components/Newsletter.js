@@ -61,82 +61,81 @@ function NewsLetter() {
       </Container>
       {message && <Alert className="mt-3">{message}</Alert>}
 
-      <style jsx>{`
-  .newsletter-bx {
-    background: #d2cbc9;
-    border-radius: 4rem;            /* more oval */
-    padding: 3.5rem 5rem;
-    margin: 5rem auto;
-    max-width: 1200px;               /* wider */
-    width: 90%;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  .newsletter-bx:hover {
-    transform: translateY(-2px);
-  }
+      <style>{`
+        .newsletter-bx {
+          background: #d2cbc9;
+          border-radius: 4rem;
+          padding: 3.5rem 5rem;
+          margin: 5rem auto;
+          max-width: 1200px;
+          width: 90%;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease;
+        }
+        .newsletter-bx:hover {
+          transform: translateY(-2px);
+        }
 
-  .newsletter-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-    flex-wrap: wrap;
-  }
+        .newsletter-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 3rem;
+          flex-wrap: wrap;
+        }
 
-  .newsletter-content h3 {
-    color: #083d33;
-    font-size: 2rem;
-    line-height: 1.3;
-    max-width: 400px;
-    margin: 0;
-  }
+        .newsletter-content h3 {
+          color: #083d33;
+          font-size: 2rem;
+          line-height: 1.3;
+          max-width: 400px;
+          margin: 0;
+        }
 
-  .new-email-bx {
-    display: flex;
-    align-items: center;
-    background: #fff;
-    border-radius: 3rem;            /* more oval input */
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    width: 100%;
-    max-width: 500px;                /* slightly longer input */
-  }
+        .new-email-bx {
+          display: flex;
+          align-items: center;
+          background: #fff;
+          border-radius: 3rem;
+          overflow: hidden;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+          width: 100%;
+          max-width: 500px;
+        }
 
-  .new-email-bx input {
-    border: none;
-    outline: none;
-    padding: 1.2rem 1.8rem;
-    flex: 1;
-    font-size: 1rem;
-  }
+        .new-email-bx input {
+          border: none;
+          outline: none;
+          padding: 1.2rem 1.8rem;
+          flex: 1;
+          font-size: 1rem;
+        }
 
-  .new-email-bx button {
-    background: #083d33;
-    color: #fff;
-    border: none;
-    padding: 1.2rem 2.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-    transition: background 0.3s ease;
-  }
+        .new-email-bx button {
+          background: #083d33;
+          color: #fff;
+          border: none;
+          padding: 1.2rem 2.5rem;
+          cursor: pointer;
+          font-size: 1rem;
+          font-weight: 600;
+          transition: background 0.3s ease;
+        }
 
-  .new-email-bx button:hover {
-    background: #0e5b4d;
-  }
+        .new-email-bx button:hover {
+          background: #0e5b4d;
+        }
 
-  @media (max-width: 768px) {
-    .newsletter-content {
-      flex-direction: column;
-      text-align: center;
-    }
-    .newsletter-content h3 {
-      max-width: 100%;
-    }
-  }
-`}</style>
-
+        @media (max-width: 768px) {
+          .newsletter-content {
+            flex-direction: column;
+            text-align: center;
+          }
+          .newsletter-content h3 {
+            max-width: 100%;
+          }
+        }
+      `}</style>
     </div>
   );
 }
