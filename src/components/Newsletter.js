@@ -14,7 +14,7 @@ function NewsLetter() {
     if (!input) return;
 
     try {
-      const res = await fetch("/api/Newsletter", {
+      const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: input })
@@ -37,10 +37,10 @@ function NewsLetter() {
   };
 
   return (
-    <div className="Newsletter-bx">
+    <div className="newsletter-bx">
       <Container>
         <form onSubmit={handleSubmit}>
-          <div className="Newsletter-content">
+          <div className="newsletter-content">
             <h3>
               Subscribe to our
               <br />
