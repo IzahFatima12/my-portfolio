@@ -14,7 +14,7 @@ function NewsLetter() {
     if (!input) return;
 
     try {
-      const res = await fetch("/api/newsletter", {
+      const res = await fetch("/api/Newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: input })
@@ -37,10 +37,10 @@ function NewsLetter() {
   };
 
   return (
-    <div className="newsletter-bx">
+    <div className="Newsletter-bx">
       <Container>
         <form onSubmit={handleSubmit}>
-          <div className="newsletter-content">
+          <div className="Newsletter-content">
             <h3>
               Subscribe to our<br />
               Newsletter & get the latest<br />
@@ -62,7 +62,7 @@ function NewsLetter() {
       {message && <Alert className="mt-3">{message}</Alert>}
 
       <style>{`
-        .newsletter-bx {
+        .Newsletter-bx {
           background: #d2cbc9;
           border-radius: 4rem;
           padding: 3.5rem 5rem;
@@ -72,11 +72,11 @@ function NewsLetter() {
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
           transition: transform 0.3s ease;
         }
-        .newsletter-bx:hover {
+        .Newsletter-bx:hover {
           transform: translateY(-2px);
         }
 
-        .newsletter-content {
+        .Newsletter-content {
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -84,7 +84,7 @@ function NewsLetter() {
           flex-wrap: wrap;
         }
 
-        .newsletter-content h3 {
+        .Newsletter-content h3 {
           color: #083d33;
           font-size: 2rem;
           line-height: 1.3;
