@@ -6,7 +6,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/g.png";
 import projImg6 from "../assets/img/HomePage.png";
-import projImg7 from "../assets/img/song.png";
+import projImg7 from "../assets/img/frizio.png";
 import projImg8 from "../assets/img/f.png";
 import projImg9 from "../assets/img/M.png";
 import projImg10 from "../assets/img/b.png";
