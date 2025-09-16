@@ -4,11 +4,12 @@ import { ProjectCard } from "./ProjectCard.js";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/gym-homepage.png";
+import projImg5 from "../assets/img/g.png";
 import projImg6 from "../assets/img/HomePage.png";
 import projImg7 from "../assets/img/song.png";
-import projImg8 from "../assets/img/food.png";
-import projImg9 from "../assets/img/food.png";
+import projImg8 from "../assets/img/f.png";
+import projImg9 from "../assets/img/M.png";
+import projImg10 from "../assets/img/b.png";
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -20,14 +21,14 @@ export const Project = () => {
       description: "Design and Development",
       imgUrl: projImg1,
       category: "Apps",
-      url: "https://your-demo-link.com"   // 🔗 add your link here
+      url: "https://your-https://www.figma.com/design/BggaIbjcuu8viM2ZEn2RJa/LattoFatto-app?node-id=0-1&p=f&t=LVUx4vKuN4xchnXa-0emo-link.com"   // 🔗 add your link here
     },
     {
-      title: "book reading app",
+      title: "brew-hub coffe app",
       description: "Design and Development",
       imgUrl: projImg2,
       category: "Apps",
-      url: "https://your-demo-link.com"
+      url: "https://github.com/IzahFatima12/brew-hub"
     },
     {
       title: "Glow-up Website",
@@ -44,11 +45,19 @@ export const Project = () => {
       url: "https://your-demo-link.com"
     },
     {
-      title: "song-sync",
+      title: "RedConnect-Blood Dnation Website",
       description: "Design ",
-      imgUrl: projImg7,
+      imgUrl: projImg10,
       category: "Graphic Designs",
-      url: "https://www.figma.com/proto/iXQFAsds3bjcfj8LXt8IZH/SongSync-App?node-id=1-40&t=AYllQF2blod3rFAt-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+      url: "https://www.figma.com/design/sbmoTCyqfy2obCT0C7gHyL/Untitled?node-id=0-1&p=f&t=b32DBzUwohD8wulP-0"
+    },
+
+    {
+      title: "Marvel Cinematic Universe-Website",
+      description: "Design ",
+      imgUrl: projImg9,
+      category: "Graphic Designs",
+      url: "https://www.figma.com/design/QPG7yz07zQtPc8zBdxkWcR/OTT-sTREAMING-wEBSITE?node-id=0-1&p=f&t=yvpZb20SsXuY8jN1-0"
     },
     {
       title: "Royal Ruffles clothing shop",
@@ -65,12 +74,16 @@ export const Project = () => {
       url: "https://www.figma.com/proto/BggaIbjcuu8viM2ZEn2RJa/LattoFatto-app?node-id=1-2&p=f&t=60sMtgf52ZeZ9YFB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2"
     },
     {
-      title: "frizio-softdrinks company",
+      title: "Frizio-Softdrink Company Website",
       description: "Design ",
-      imgUrl: projImg9,
+      imgUrl: projImg7,
       category: "Graphic Designs",
-      url: "https://www.figma.com/proto/Zs1CRpYlhXdlVXUTnhAPfe/Frizio?node-id=1-2&t=8k2rjRGj7KCJCPTR-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
-    }
+      url: "https://www.figma.com/design/Zs1CRpYlhXdlVXUTnhAPfe/Frizio?node-id=1-2&t=Ti5k5VIctysU3bhR-0"
+    },
+
+
+
+
   ];
 
   return (
